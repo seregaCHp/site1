@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 - Непревзойденный игровой опыт</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Image -->
+    <header class="header-with-image">
+        <div class="header-overlay"></div>
+        <div class="logo">
+            <img src="./images/pngwing.com.png" alt="Логотип Dota 2">
+        </div>
+        <div class="header-content">
+            <h1>Добро пожаловать в Dota 2</h1>
+            <p>Исследуйте героев, стратегии и арену величайших сражений</p>
+        </div>
+    </header>
+
+    <!-- Multi-level Menu -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Главная</a></li>
+                <li class="has-dropdown">
+                    <a href="#heroes">Герои <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown">
+                        <li class="has-dropdown">
+                            <a href="#strength">Сила <i class="fas fa-chevron-right"></i></a>
+                            <ul class="sub-dropdown">
+                                <li><a href="#axe">Акс</a></li>
+                                <li><a href="#pudge">Пудж</a></li>
+                                <li><a href="#sven">Свен</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="#agility">Ловкость <i class="fas fa-chevron-right"></i></a>
+                            <ul class="sub-dropdown">
+                                <li><a href="#juggernaut">Джаггернаут</a></li>
+                                <li><a href="#phantom-assassin">Фантом Ассасин</a></li>
+                                <li><a href="#sniper">Снайпер</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="#intelligence">Интеллект <i class="fas fa-chevron-right"></i></a>
+                            <ul class="sub-dropdown">
+                                <li><a href="#invoker">Инвокер</a></li>
+                                <li><a href="#rubick">Рубик</a></li>
+                                <li><a href="#zeus">Зевс</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#gameplay">Геймплей</a></li>
+                <li><a href="#tournaments">Турниры</a></li>
+                <li><a href="#community">Сообщество</a></li>
+                <li><a href="#about">О игре</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section with CSS Slider -->
+        <section id="home" class="hero-section">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/maxresdefault.jpg" alt="Эпическая битва Dota 2">
+                        <div class="slide-content">
+                            <h2>Эпические сражения ждут</h2>
+                            <p>Присоединяйтесь к миллионам игроков по всему миру в лучшей MOBA игре</p>
+                            <button class="btn primary-btn">Играть сейчас</button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/1523150170_0uueOOL.jpg" alt="Герои Dota 2">
+                        <div class="slide-content">
+                            <h2>Выберите своего героя</h2>
+                            <p>Более 120 уникальных героев с особыми способностями и стилями игры</p>
+                            <button class="btn primary-btn">Изучить героев</button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/156f9c28b1e9421188f91a8c4f2535ad.jpg" alt="Турнир Dota 2">
+                        <div class="slide-content">
+                            <h2>Соревновательная сцена</h2>
+                            <p>Наблюдайте за лучшими командами, сражающимися за славу и огромные призовые фонды</p>
+                            <button class="btn primary-btn">Смотреть турниры</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rounded Corner Block with Game Info -->
+        <section class="rounded-block game-info">
+            <div class="container">
+                <h2>Что такое Dota 2?</h2>
+                <p>Dota 2 — это многопользовательская онлайн-игра в жанре MOBA, разработанная и изданная компанией Valve. Игроки соревнуются в матчах 5 на 5, где каждая команда занимает и защищает свою отдельную базу на карте. Каждый игрок независимо управляет мощным персонажем, известным как "герой", у которого есть уникальные способности и различные стили игры.</p>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Командная стратегия</h3>
+                        <p>Координируйте действия с товарищами по команде, чтобы перехитрить противников</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-chess"></i>
+                        <h3>Глубокий геймплей</h3>
+                        <p>Освойте сложные механики и постоянно развивающуюся мету</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Соревновательная сцена</h3>
+                        <p>Участвуйте в турнирах с огромными призовыми фондами</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Глобальное сообщество</h3>
+                        <p>Присоединяйтесь к миллионам игроков со всего мира</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rotating Cube Section -->
+        <section class="cube-section">
+            <div class="container">
+                <h2>Основные элементы игры</h2>
+                <div class="cube-container">
+                    <div class="cube">
+                        <div class="cube-face front">
+                            <h3>Герои</h3>
+                            <p>Выбирайте из более чем 120 уникальных персонажей</p>
+                        </div>
+                        <div class="cube-face back">
+                            <h3>Предметы</h3>
+                            <p>Настраивайте своего героя мощным снаряжением</p>
+                        </div>
+                        <div class="cube-face right">
+                            <h3>Способности</h3>
+                            <p>Освойте уникальные навыки и заклинания</p>
+                        </div>
+                        <div class="cube-face left">
+                            <h3>Стратегия</h3>
+                            <p>Разрабатывайте тактики, чтобы переиграть противников</p>
+                        </div>
+                        <div class="cube-face top">
+                            <h3>Командная работа</h3>
+                            <p>Координируйте действия с союзниками для победы</p>
+                        </div>
+                        <div class="cube-face bottom">
+                            <h3>Экономика</h3>
+                            <p>Эффективно фармите золото и опыт</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Showcase with Flip Cards -->
+        <section id="heroes" class="hero-showcase">
+            <div class="container">
+                <h2>Рекомендуемые герои</h2>
+                <div class="hero-grid">
+                    <!-- Flip Card 1 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./images/juggernaut.png" alt="Джаггернаут">
+                                <div class="text-overlay">
+                                    <h3>Jagernaut</h3>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Jagernaut</h3>
+                                <p class="hero-type">Ловкость</p>
+                                <p>Свирепый мечник, который использует свой Клинковый Вихрь, чтобы стать невосприимчивым к магии и наносить урон ближайшим врагам.</p>
+                                <div class="hero-abilities">
+                                    <span>Blade fury</span>
+                                    <span>Healing totem</span>
+                                    <span>Blade dance</span>
+                                    <span>Omnislash</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Flip Card 2 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./images/crystal_maiden.png" alt="Кристал Мейден">
+                                <div class="text-overlay">
+                                    <h3>Cristal Maiden</h3>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Cristal Maiden</h3>
+                                <p class="hero-type">Интеллект</p>
+                                <p>Могущественный ледяной маг, способный замедлять врагов и обеспечивать регенерацию маны всей команде.</p>
+                                <div class="hero-abilities">
+                                    <span>Cristal Nova</span>
+                                    <span>Frostbaite</span>
+                                    <span>Arcane Aura</span>
+                                    <span>Freezing Field</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Flip Card 3 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./images/axe.png" alt="Акс">
+                                <div class="text-overlay">
+                                    <h3>Axe</h3>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Аxe</h3>
+                                <p class="hero-type">Сила</p>
+                                <p>Могучий воин, который провоцирует врагов атаковать его и казнит их своим мощным ультимейтом.</p>
+                                <div class="hero-abilities">
+                                    <span>Berserkers call</span>
+                                    <span>Battle Hunger</span>
+                                    <span>Counter Helix</span>
+                                    <span>Culling Blade</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Flip Card 4 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./images/invoker.png" alt="Инвокер">
+                                <div class="text-overlay">
+                                    <h3>Invoker</h3>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Invoker</h3>
+                                <p class="hero-type">Интеллект</p>
+                                <p>Мастер тайных искусств, способный комбинировать элементы для создания до 10 различных заклинаний.</p>
+                                <div class="hero-abilities">
+                                    <span>Quas</span>
+                                    <span>Wex</span>
+                                    <span>Exort</span>
+                                    <span>Invok</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Flip Card 5 (Новая) -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./images/phantom_assassin.png" alt="Фантом Ассасин">
+                                <div class="text-overlay">
+                                    <h3>Phantom Assasin</h3>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Phantom Assasin</h3>
+                                <p class="hero-type">Ловкость</p>
+                                <p>Смертоносная убийца, способная наносить огромный критический урон и быстро перемещаться по полю боя.</p>
+                                <div class="hero-abilities">
+                                    <span>Stifling Dagger</span>
+                                    <span>Phantom Strike</span>
+                                    <span>Blur</span>
+                                    <span>Cope De Grace</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Flip Card 6 (Новая) -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./images/pudge.png" alt="Пудж">
+                                <div class="text-overlay">
+                                    <h3>Pudge</h3>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Pudge</h3>
+                                <p class="hero-type">Сила</p>
+                                <p>Мясник, который цепляет врагов своим крюком и пожирает их плоть, чтобы увеличить свою силу.</p>
+                                <div class="hero-abilities">
+                                    <span>Hook</span>
+                                    <span>Rot</span>
+                                    <span>Meat Shield</span>
+                                    <span>Dismember</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Table Section -->
+        <section class="table-section">
+            <div class="container">
+                <h2>Сравнение атрибутов героев</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Герой</th>
+                                <th>Тип</th>
+                                <th>Базовое ХП</th>
+                                <th>Базовая Мана</th>
+                                <th>Дальность атаки</th>
+                                <th>Скорость передвижения</th>
+                                <th>Сложность</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jagernaut</td>
+                                <td>Ловкость</td>
+                                <td>600</td>
+                                <td>243</td>
+                                <td>150 (Ближний)</td>
+                                <td>300</td>
+                                <td>★★☆</td>
+                            </tr>
+                            <tr>
+                                <td>Cristal Maiden</td>
+                                <td>Интеллект</td>
+                                <td>500</td>
+                                <td>315</td>
+                                <td>600 (Дальний)</td>
+                                <td>275</td>
+                                <td>★★☆</td>
+                            </tr>
+                            <tr>
+                                <td>Axe</td>
+                                <td>Сила</td>
+                                <td>700</td>
+                                <td>195</td>
+                                <td>150 (Ближний)</td>
+                                <td>310</td>
+                                <td>★☆☆</td>
+                            </tr>
+                            <tr>
+                                <td>Invoker</td>
+                                <td>Интеллект</td>
+                                <td>520</td>
+                                <td>285</td>
+                                <td>600 (Дальний)</td>
+                                <td>285</td>
+                                <td>★★★</td>
+                            </tr>
+                            <tr>
+                                <td>Phantom Assassin</td>
+                                <td>Ловкость</td>
+                                <td>580</td>
+                                <td>219</td>
+                                <td>150 (Ближний)</td>
+                                <td>305</td>
+                                <td>★★☆</td>
+                            </tr>
+                            <tr>
+                                <td>Pudge</td>
+                                <td>Сила</td>
+                                <td>700</td>
+                                <td>217</td>
+                                <td>175 (Ближний)</td>
+                                <td>280</td>
+                                <td>★★☆</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tooltip Section -->
+        <section class="tooltip-section">
+            <div class="container">
+                <h2>Игровые механики</h2>
+                <div class="tooltip-container">
+                    <div class="tooltip-block">
+                        <div class="tooltip-header">
+                            <h3>Добивание крипов <i class="fas fa-chevron-down"></i></h3>
+                        </div>
+                        <div class="tooltip-content">
+                            <p>Добивание крипов — это нанесение последнего удара по крипу для получения золота. Это фундаментальная механика, которую должны освоить все игроки, чтобы быть успешными в Dota 2.</p>
+                            <ul>
+                                <li>Ближние крипы дают 38-48 золота</li>
+                                <li>Дальние крипы дают 54-65 золота</li>
+                                <li>Осадные крипы дают 66-80 золота</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="tooltip-block">
+                        <div class="tooltip-header">
+                            <h3>Вардинг <i class="fas fa-chevron-down"></i></h3>
+                        </div>
+                        <div class="tooltip-content">
+                            <p>Варды обеспечивают обзор области, позволяя вашей команде видеть передвижения врагов. Существует два типа вардов:</p>
+                            <ul>
+                                <li>Observer wards: Обеспечивают только обзор</li>
+                                <li>Sentry wars: Обнаруживают невидимых юнитов и варды</li>
+                            </ul>
+                            <p>Стратегическое размещение вардов имеет решающее значение для контроля карты и предотвращения ганков.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tooltip-block">
+                        <div class="tooltip-header">
+                            <h3>Стаки и отводы <i class="fas fa-chevron-down"></i></h3>
+                        </div>
+                        <div class="tooltip-content">
+                            <p>Стакинг — это процесс выманивания нейтральных крипов из их лагеря в определенное время для появления дополнительных крипов. Отвод включает в себя привлечение крипов с линии в нейтральные лагеря.</p>
+                            <p>Эти техники используются для:</p>
+                            <ul>
+                                <li>Повышения эффективности фарма</li>
+                                <li>Контроля равновесия на линии</li>
+                                <li>Отрицания опыта вражеским героям</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="tooltip-block">
+                        <div class="tooltip-header">
+                            <h3>Руны <i class="fas fa-chevron-down"></i></h3>
+                        </div>
+                        <div class="tooltip-content">
+                            <p>Руны появляются в определенных местах и в определенное время, предоставляя различные преимущества:</p>
+                            <ul>
+                                <li>Руны богатства: Дают золото и опыт</li>
+                                <li>Руны силы: Дают особые эффекты, такие как ускорение, двойной урон, невидимость и т.д.</li>
+                                <li>Водяные руны: Восстанавливают здоровье и ману</li>
+                            </ul>
+                            <p>Контроль рун может дать вашей команде значительное преимущество.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Floating Block Section -->
+        <section class="floating-section">
+            <div class="container">
+                <h2>Последние обновления</h2>
+                <div class="floating-block">
+                    <div class="update-card">
+                        <div class="update-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="update-content">
+                            <h3>Патч 7.38c выпущен</h3>
+                            <p>Последнее обновление баланса вносит изменения в нескольких героев и предметы.</p>
+                            <a href="#" class="btn secondary-btn">Читать патч-ноты</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-block">
+                    <div class="update-card">
+                        <div class="update-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="update-content">
+                            <h3>The International 2025</h3>
+                            <p>Крупнейший турнир года по Dota 2 скоро начнется!</p>
+                            <a href="#" class="btn secondary-btn">Подробности турнира</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-block">
+                    <div class="update-card">
+                        <div class="update-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <div class="update-content">
+                            <h3>Новый Боевой Пропуск</h3>
+                            <p>Разблокируйте эксклюзивные косметические предметы и функции с новым Боевым Пропуском.</p>
+                            <a href="#" class="btn secondary-btn">Посмотреть награды</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community" class="community-section">
+            <div class="container">
+                <h2>Присоединяйтесь к сообществу</h2>
+                <div class="community-grid">
+                    <div class="community-card">
+                        <i class="fab fa-discord"></i>
+                        <h3>Discord</h3>
+                        <p>Общайтесь с другими игроками, находите товарищей по команде и обсуждайте стратегии</p>
+                        <a href="#" class="btn outline-btn">Присоединиться к Discord</a>
+                    </div>
+                    <div class="community-card">
+                        <i class="fab fa-reddit"></i>
+                        <h3>Reddit</h3>
+                        <p>Будьте в курсе последних новостей, мемов и обсуждений</p>
+                        <a href="#" class="btn outline-btn">Посетить Subreddit</a>
+                    </div>
+                    <div class="community-card">
+                        <i class="fab fa-twitch"></i>
+                        <h3>Twitch</h3>
+                        <p>Смотрите, как профессиональные игроки и стримеры демонстрируют свои навыки</p>
+                        <a href="#" class="btn outline-btn">Смотреть стримы</a>
+                    </div>
+                    <div class="community-card">
+                        <i class="fab fa-youtube"></i>
+                        <h3>YouTube</h3>
+                        <p>Учитесь из туториалов, гайдов и видео с лучшими моментами</p>
+                        <a href="#" class="btn outline-btn">Смотреть видео</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Оставайтесь в курсе</h2>
+                    <p>Зарегистрируйтесь, чтобы получать последние новости, обновления и эксклюзивный контент Dota 2.</p>
+                    <button id="openRegisterModal" class="btn primary-btn">Регистрация</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="./images/pngwing.com.png" alt="Логотип Dota 2">
+                    </div>
+                    <p>Dota 2 является зарегистрированной торговой маркой Valve Corporation. Это фанатский сайт.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#heroes">Герои</a></li>
+                        <li><a href="#gameplay">Геймплей</a></li>
+                        <li><a href="#tournaments">Турниры</a></li>
+                        <li><a href="#community">Сообщество</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Ресурсы</h3>
+                    <ul>
+                        <li><a href="#">Официальный сайт</a></li>
+                        <li><a href="#">Страница Steam</a></li>
+                        <li><a href="#">Вики</a></li>
+                        <li><a href="#">Патч-ноты</a></li>
+                        <li><a href="#">Киберспорт</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Связаться</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitch"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Фан-сайт Dota 2. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для героев -->
+    <div class="modal" id="heroModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2>Детали героя</h2>
+            </div>
+            <div class="modal-body">
+                <div class="hero-details">
+                    <div class="hero-image">
+                        <img id="modalHeroImage" src="/placeholder.svg" alt="Герой">
+                    </div>
+                    <div class="hero-info">
+                        <h3 id="modalHeroName"></h3>
+                        <p id="modalHeroType"></p>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-label">Сила</span>
+                                <div class="stat-bar">
+                                    <div id="strengthBar" class="stat-fill"></div>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Ловкость</span>
+                                <div class="stat-bar">
+                                    <div id="agilityBar" class="stat-fill"></div>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Интеллект</span>
+                                <div class="stat-bar">
+                                    <div id="intelligenceBar" class="stat-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-description">
+                    <p id="modalHeroDescription"></p>
+                </div>
+                <div class="hero-abilities-container">
+                    <h4>Способности</h4>
+                    <div class="abilities-grid" id="modalHeroAbilities">
+                        <!-- Abilities will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn primary-btn">Посмотреть полный гайд по герою</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для регистрации -->
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2>Регистрация</h2>
+            </div>
+            <div class="modal-body">
+                <form id="registerForm">
+                    <div class="form-group">
+                        <label for="username">Имя пользователя</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Подтвердите пароль</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Я согласен с условиями использования</label>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Я хочу получать новости и обновления</label>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" form="registerForm" class="btn primary-btn">Зарегистрироваться</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
